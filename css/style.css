@@ -99,6 +99,8 @@ a:focus {
 #feature,
 #video,
 #shiatsu,
+#naturopathie,
+#abhyanga,
 #team,
 #gallery,
 #contact {
@@ -127,6 +129,8 @@ a:focus {
   padding-bottom: 70px;
 }
 #about .section-title,
+#naturopathie .section-title,
+#abhyanga .section-title,
 #shiatsu .section-title {
   text-align: center;
 }
@@ -384,7 +388,9 @@ a:focus {
 
 
 /* Menu section */
-#shiatsu .media {
+#shiatsu .media,
+#naturopathie .media,
+#abhyanga .media {
   padding-bottom: 20px;
 }
 
@@ -394,7 +400,9 @@ a:focus {
   position: relative;
 }
 
-#shiatsu .media-object span.menu-price {
+#shiatsu .media-object span.menu-price,
+#naturopathie .media-object span.menu-price,
+#abhyanga .media-object span.menu-price {
   position: absolute;
   background-color: #ffffff;
   color: #222;
@@ -806,6 +814,8 @@ footer strong {
   #feature,
   #video,
   #shiatsu,
+  #naturopathie,
+  #abhyanga,
   #team,
   #gallery,
   #contact {
@@ -813,11 +823,15 @@ footer strong {
     padding-bottom: 80px;
   }
 
-  #shiatsu .media-object img {
+  #shiatsu .media-object img,
+  #naturopathie .media-object img,
+  #abhyanga .media-object abhyanga{
     width: 100%;
     padding-bottom: 14px;
   }
-  #shiatsu .media-object span.menu-price {
+  #shiatsu .media-object span.menu-price,
+  #naturopathie .media-object span.menu-price,
+  #abhyanga .media-object span.menu-abhyanga{
     top: 30%;
     left: 6%;
   }
