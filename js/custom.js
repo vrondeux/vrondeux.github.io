@@ -102,8 +102,10 @@ $(document).ready(function() {
   $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
-       "images/home-bg-slideshow11.jpg", 
-       "images/home-bg-slideshow12.jpg", 
+//       "images/home-bg-slideshow11.jpg", 
+//       "images/home-bg-slideshow12.jpg", 
+//       "images/home-bg-slideshow13.jpg",  
+       "images/home-bg-slideshow15.jpg", 
        // "images/home-bg-slideshow2.jpg",
        // "images/home-bg-slideshow3.jpg",
         ],  {duration: 5000, fade: 950});
