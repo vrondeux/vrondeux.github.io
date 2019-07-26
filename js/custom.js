@@ -150,3 +150,44 @@ $(document).ready(function() {
 
   });
 
+/* Copyright date
+-------------------------------*/
+$('#copyright').find('p').find('span.year').html(new Date().getFullYear());
+
+/* Obfuscate phone number
+-------------------------------*/
+cell_element = $(".allo");
+
+cell_element.each(function(index) {
+
+  cell_index = 0;
+  cell_txt = cell_ref = cell_1 = cell_2 = '';
+
+  while(cell_index < cell_element.text().length) {
+
+    cell_tmp = cell_element.text().charAt(cell_index);
+
+    if (!isNaN(1*cell_tmp)) {
+
+      cell_1 = cell_2 = cell_element.text().charAt(cell_index)-1;
+
+        if (cell_1 == -1) {
+          cell_1 = ' ';
+          cell_2 = '';
+        }
+
+    } else {
+
+      cell_1 = cell_2 = cell_tmp;
+
+    }
+
+    cell_txt += '' + cell_1;
+    cell_ref += '' + cell_2;
+    cell_index++;
+  }
+
+  cell_element.text('+32 ' + cell_txt).attr('href', 'tel:+32' + cell_ref);
+
+});
+
