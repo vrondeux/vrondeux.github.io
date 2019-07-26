@@ -128,7 +128,7 @@ $(document).ready(function() {
     $('#about').parallax("100%", 0.1);
     $('#feature').parallax("100%", 0.3);
     $('#about').parallax("100%", 0.1);
-    $('#video').parallax("100%", 0.2);
+//    $('#video').parallax("100%", 0.2);
     $('#menu').parallax("100%", 0.3);
     $('#team').parallax("100%", 0.3);
     $('#gallery').parallax("100%", 0.1);
